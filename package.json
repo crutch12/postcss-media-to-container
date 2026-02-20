@@ -1,0 +1,57 @@
+{
+  "name": "postcss-media-to-container",
+  "version": "0.0.0",
+  "description": "Replace @media queries with supported @container queries",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "require": {
+      "types": "./dist/index.d.cts",
+      "default": "./dist/index.cjs"
+    },
+    "import": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crutch12/postcss-media-to-container.git"
+  },
+  "keywords": [
+    "atrules",
+    "postcss",
+    "postcss-plugin",
+    "rules",
+    "media",
+    "container",
+    "query",
+    "css",
+    "replace"
+  ],
+  "author": {
+    "name": "Konstantin Barabanov",
+    "email": "criitch@yandex.ru"
+  },
+  "license": "MIT-0",
+  "bugs": {
+    "url": "https://github.com/crutch12/postcss-media-to-container/issues"
+  },
+  "homepage": "https://github.com/crutch12/postcss-media-to-container#readme",
+  "devDependencies": {
+    "postcss": "^8.5.6",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE.md"
+  ]
+}

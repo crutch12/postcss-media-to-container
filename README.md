@@ -4,7 +4,7 @@
 npm install postcss-media-to-container --save-dev
 ```
 
-[postcss-media-to-container] plugin replaces all found [@media](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media) queries with supported [@container](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@container) queries.
+`postcss-media-to-container` plugin replaces all found [@media](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media) queries with supported [@container](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@container) queries.
 
 ```css
 /* this @media query */
@@ -18,13 +18,13 @@ npm install postcss-media-to-container --save-dev
 
 ## Usage
 
-Add [postcss-media-to-container] plugin to your project:
+Add `postcss-media-to-container` plugin to your project:
 
 ```bash
 npm install postcss postcss-media-to-container --save-dev
 ```
 
-Use it as a [postcss-media-to-container] plugin:
+Use it as a `postcss` plugin:
 
 ```js
 const postcss = require("postcss");

@@ -1,6 +1,6 @@
 {
   "name": "postcss-media-to-container",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Replace @media queries with supported @container queries",
   "type": "module",
   "main": "./dist/index.cjs",
